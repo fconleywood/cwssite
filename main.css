@@ -1,0 +1,139 @@
+/* ===GLOBAL=== */
+* {
+  box-sizing: border-box;
+}
+
+.page_container{
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Futura', sans-serif;
+  font-weight: 200;
+}
+
+.page_section{
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  max-width: none;
+  margin: 0;
+  height: 100vh;
+}
+
+.content{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.content h2{
+  font-size: 4vh;
+  text-align:center;
+}
+
+/* ===HEADER=== */
+
+.header{
+  position: fixed;
+  padding: 0.5%;
+  width: 100%;
+  background-color: #2F2F68;
+}
+
+.navigation {
+}
+
+.logo_link {
+  padding: 0% 5%;
+}
+
+.logo_link img{
+  vertical-align: middle;
+  max-height: 10vh;
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding: 0.5% 5%;
+  white-space: nowrap;
+  text-decoration: none;
+  color: white;
+}
+
+.navigation a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* ===HOME=== */
+
+#home{
+  background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('images/IMG_5945.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home h1{
+  font-size: 7vh;
+  text-align:center;
+}
+
+#home h2{
+  text-align:center;
+}
+
+.content{
+  align-content: center;
+}
+
+.logo_link{
+  max-height: 10vh;
+  cursor: pointer;
+  position: relative;
+}
+
+/* ===ABOUT=== */
+
+#about{
+  background-color: #006986;
+  color: #fff;
+}
+
+/* ===SERVICES=== */
+
+#services{
+  background-color: #fff;
+}
+
+/* ===PROJECTS=== */
+
+
+#projects{
+  background-color: #006986;
+  color: #fff;
+}
+
+/* ===CONTACT=== */
+
+#contact{
+  /*background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('images/img_contact_c_w_solutions.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;*/
+  background-color: #fff;
+}
+
+/* ===FOOTER=== */
+
+.footer{
+  padding: 1% 5%;
+  text-align:center;
+  background-color: #414042;
+  color: white;
+}
