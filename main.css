@@ -92,10 +92,12 @@
   align-content: center;
 }
 
-.logo_link{
+.arrow_link{
   max-height: 10vh;
   cursor: pointer;
-  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /* ===ABOUT=== */
