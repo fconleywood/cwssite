@@ -73,7 +73,7 @@
 /* ===HOME=== */
 
 #home{
-  background: linear-gradient(#006986 10%, 30%, #2F2F68 90%);
+  background: linear-gradient(#006986 30%, 75%, #2F2F68 90%);
 }
 
 #home h1{
@@ -99,35 +99,26 @@
   display: block;
 }
 
-/* ===ABOUT=== */
-
-#about{
-  background-color: #006986;
-  color: #fff;
-}
-
 /* ===SERVICES=== */
 
 #services{
-  background-color: #fff;
+  background: linear-gradient(#2F2F68 30%, 75%, #006986 90%);
+  color: #fff;
 }
 
 /* ===PROJECTS=== */
 
 
 #projects{
-  background-color: #006986;
+  background: linear-gradient(#006986 30%, 75%, #2F2F68 90%);
   color: #fff;
 }
 
 /* ===CONTACT=== */
 
 #contact{
-  /*background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('images/img_contact_c_w_solutions.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;*/
-  background-color: #fff;
+  background: linear-gradient(#2F2F68 30%, 75%, #006986 90%);
+  color: #fff;
 }
 
 /* ===FOOTER=== */
