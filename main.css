@@ -68,8 +68,7 @@
 /* ===HOME=== */
 
 .homepage_logo img{
-  vertical-align: middle;
-  position: relative;
+  display: inline-block;
 }
 
 #home{
@@ -90,7 +89,7 @@
 }
 
 .content{
-  align-content: center;
+  text-align: center;
 }
 
 .arrow_link{
