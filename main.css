@@ -39,6 +39,11 @@
 }
 
 .navigation {
+    text-align: center;
+}
+
+.main_menu_items {
+    display: inline-block;
 }
 
 .homepage_logo img{
