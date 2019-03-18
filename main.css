@@ -46,11 +46,6 @@
     display: inline-block;
 }
 
-.homepage_logo img{
-  vertical-align: middle;
-  position: relative;
-}
-
 .navigation a {
   text-decoration: none;
   padding: 0.5% 5%;
@@ -71,6 +66,11 @@
 
 
 /* ===HOME=== */
+
+.homepage_logo img{
+  vertical-align: middle;
+  position: relative;
+}
 
 #home{
   background: linear-gradient(#006986 30%, 75%, #2F2F68 90%);
