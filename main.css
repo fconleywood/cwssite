@@ -147,19 +147,29 @@
 
 .contact_form{
   display: inline-block;
-  padding: 10%;
+  margin: 3%;
+  width: 40%;
 }
 
-.form{
+form{
   text-align: left;
-  margin-left: auto;
+  margin: 2%;
+}
+input{
+  width: 100%;
+  height: 2rem;
+}
+
+textarea{
+  width: 100%;
 }
 
 .form_button{
   background-color: #2F2F68;
   color: #fff;
   border: none;
-
+  font-size: .9rem;
+  padding: 1%;
 }
 
 /* ===FOOTER=== */
