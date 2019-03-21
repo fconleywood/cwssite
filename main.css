@@ -25,7 +25,6 @@
 
 .content h2{
   font-size: 2rem;
-  text-align: center;
   font-weight: lighter;
 }
 
@@ -37,7 +36,7 @@
 
 .content p{
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
   font-weight: lighter;
 }
 
@@ -81,26 +80,24 @@
 
 #home{
   background: linear-gradient(#006986 30%, 75%, #2F2F68 90%);
+  color: #fff;
 }
 
 .header_buffer{
   height: 15%;
+  margin: auto;
 }
 
-.homepage_logo_wrap {
-  display: inline-block;
-  width: 100%;
+.homepage_logo_wrap{
+  width: 80%;
   margin: auto;
 }
 
 img.homepage_logo {
-  width: 80%;
-  padding: 5%
+  width: 90%;
+  padding: 5%;
 }
 
-.content{
-  text-align: center;
-}
 
 .arrow_link{
   max-height: 4rem;
@@ -150,9 +147,11 @@ img.homepage_logo {
   color: #fff;
 }
 
+#contact_header{
+  text-align: center;
+}
 .contact_form{
-  display: inline-block;
-  margin: 3%;
+  margin: 7% auto;
   width: 40%;
 }
 
@@ -162,7 +161,10 @@ form{
 }
 
 label{
+  font-size: .8rem;
+  font-weight: lighter;
 }
+
 
 input{
   width: 100%;
@@ -188,7 +190,8 @@ textarea{
 
 .footer{
   padding: 1% 5%;
-  text-align:center;
+  text-align: right;
   background-color: #414042;
   color: white;
+  font-size: .8rem;
 }
