@@ -6,7 +6,7 @@
 .page_container{
   margin: 0 auto;
   width: 100%;
-  font-family: 'Futura', sans-serif;
+  font-family: sans-serif;
 }
 
 .page_section{
@@ -35,6 +35,12 @@
   font-weight: lighter;
 }
 
+.content p{
+  font-size: 1rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
 /* ===HEADER=== */
 
 .header{
@@ -54,7 +60,7 @@
 
 .navigation a {
   text-decoration: none;
-  padding: 0.5% 5%;
+  padding: 0.5% 8%;
   white-space: nowrap;
   text-decoration: none;
   color: #fff;
@@ -73,25 +79,23 @@
 
 /* ===HOME=== */
 
-.homepage_logo img{
-  display: inline-block;
-}
-
 #home{
   background: linear-gradient(#006986 30%, 75%, #2F2F68 90%);
 }
 
-#home h1{
-  font-size: 7vh;
-  text-align:center;
-  color: #fff;
-  font-weight: lighter;
+.header_buffer{
+  height: 15%;
 }
 
-#home h2{
-  text-align:center;
-  color: #fff;
-  font-weight: lighter;
+.homepage_logo_wrap {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+}
+
+img.homepage_logo {
+  width: 80%;
+  padding: 5%
 }
 
 .content{
@@ -99,8 +103,9 @@
 }
 
 .arrow_link{
-  max-height: 10vh;
+  max-height: 4rem;
   cursor: pointer;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   display: block;
