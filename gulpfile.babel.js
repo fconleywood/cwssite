@@ -80,6 +80,7 @@ gulp.task('beautify', () =>
 gulp.task('clean:dist', function() {
     return del([
         'dist/**/*',
+        '!dist/.git'
     ]);
 });
 
