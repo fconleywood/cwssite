@@ -40,6 +40,10 @@
     font-weight: lighter;
 }
 
+.captcha {
+    width: 100%;
+}
+
 /* ===HEADER=== */
 
 .header {
