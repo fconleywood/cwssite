@@ -42,6 +42,7 @@
 
 .captcha {
     width: 100%;
+    display: none;
 }
 
 /* ===HEADER=== */

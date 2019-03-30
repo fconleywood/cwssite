@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="SEO site description here">
     <link rel="stylesheet" href="main.css">
-    <script type="text/javascript"> </script>
     <title>Conley-Wood Solutions</title>
 </head>
 
@@ -84,8 +83,8 @@
                 <label>Message *</label>
                 <textarea name="message" required></textarea>
                 <br></br>
-                <iframe class="captcha" name="_contactCaptcha" frameborder="0"></iframe>
-                <input class="form_button" type="submit" value="Send Message">
+                <iframe class="captcha" id="contactCaptcha" name="_contactCaptcha" frameborder="0"></iframe>
+                <input class="form_button" type="submit" value="Send Message" onclick="window.displayCaptcha()">
                 </form>
             </div>
         </div>
@@ -94,6 +93,7 @@
     <footer class="footer">
         <p> &copy; Conley-Wood Solutions 2018 </p>
     </footer>
+    <script type="text/javascript" src="displayCaptcha.js"></script>
 </body>
 
 </html>
