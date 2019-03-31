@@ -73,18 +73,21 @@
             <h2 id="contact_header"> Contact Us </h2>
             <h3>Send us a message and we will respond as soon as possible.</h3>
             <div class="contact_form">
-                <form target="_contactCaptcha" action="https://formspree.io/f.conleywood@gmail.com" method="POST" />
-                <label>Name *</label>
-                <input type="text" name="name" required>
-                <br></br>
-                <label>Email address *</label>
-                <input type="email" name="_replyto" required>
-                <br></br>
-                <label>Message *</label>
-                <textarea name="message" required></textarea>
-                <br></br>
-                <iframe class="captcha" id="contactCaptcha" name="_contactCaptcha" frameborder="0"></iframe>
-                <input class="form_button" type="submit" value="Send Message" onclick="window.displayCaptcha()">
+                <form target="_contactCaptcha" action="https://mailthis.to/blissman@gmail.com" method="POST">
+                    <label>Name *</label>
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <br></br>
+                    <label>Email address *</label>
+                    <input type="email" name="_replyto" placeholder="Your email" required>
+                    <br></br>
+                    <label>Message *</label>
+                    <textarea name="message" placeholder="Enter your message here" required></textarea>
+                    <input type="hidden" name="_subject" value="Contact form submitted">
+                    <input type="hidden" name="_honeypot" value="">
+                    <input type="hidden" name="_confirmation" value="">
+                    <br></br>
+                    <iframe class="captcha" id="contactCaptcha" name="_contactCaptcha" frameborder="0"></iframe>
+                    <input class="form_button" type="submit" value="Send Message" onclick="window.displayCaptcha()">
                 </form>
             </div>
         </div>
